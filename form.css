@@ -1,0 +1,149 @@
+body {
+    background-image: url(img/linear-halftone-smoke-abstract-background-fog-backdrop-formed-by-polygonal-triangles-and-woodcut-style-transitions-vector.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 2s;
+}
+
+h1:hover {
+    color: aqua;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    transition: 2s;
+    transform: translatey(-1.1rem);
+}
+
+#form {
+    width: 30%;
+    height: 380px;
+    margin: 70px 30px;
+    padding: 30px 40px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-image: radial-gradient(at 56.03534347460428% 18.087904496155026%, hsla(23.250000000000004, 75.47169811320755%, 41.56862745098039%, 1) 0%, hsla(23.250000000000004, 75.47169811320755%, 41.56862745098039%, 0) 100%), radial-gradient(at 71.65249365574451% 9.831227632215779%, hsla(58.72340425531915, 34.30656934306569%, 26.862745098039216%, 1) 0%, hsla(58.72340425531915, 34.30656934306569%, 26.862745098039216%, 0) 100%), radial-gradient(at 85.1342972543768% 20.152114777675823%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%);
+    box-shadow: 0px 0px 10px 10px rgba(181, 141, 41, 0.868);
+    transition: 3s;
+
+}
+
+#form:hover {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 3s;
+}
+
+/* form submit button */
+/* #submit {
+    background: burlywood;
+    color: rgb(35, 79, 79);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 5px;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(103, 141, 146);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#submit:hover{
+    color: black;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(105, 172, 54), 0 0 0.2em rgb(255, 140, 0);
+}
+
+#submit:active {
+    color: black;
+    background: rgb(193, 176, 176);
+    border-radius: 10px;
+    
+} */
+
+/* input{
+    font-size: 22px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: rgb(109, 153, 153);
+    color: black;
+} */
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(172, 172, 188);
+    cursor: pointer;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+label:hover {
+    color: rgb(63, 63, 136);
+}
+
+.input-name span {
+    color: rgb(244, 3, 3);
+    user-select: none;
+}
+
+.input-box {
+    margin: 20px 0;
+}
+
+.input-box input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.input-box input:focus {
+    border: 2px solid rgb(23, 67, 23);
+    transition: 3s;
+
+}
+
+.input-box img {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 440px;
+    top: 360px;
+    border-radius: 20px;
+}
+
+#button {
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 100px;
+    border-radius: 16px;
+    background: #fff;
+    border: 2px solid green;
+    color: green;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+
+    &:hover {
+        color: white;
+        background: rgb(0, 128, 62);
+        transition: 2s;
+    }
+
+    &:active {
+        letter-spacing: 2px;
+        letter-spacing: 2px;
+    }
+
+}
